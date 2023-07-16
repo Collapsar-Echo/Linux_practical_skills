@@ -204,6 +204,7 @@ hostnamectl set-hostname c7.test //永久修改主机名为c7.test
 包管理器是方便软件安装、卸载，解决软件依赖关系的重要工具
 - CentOS、RedHat 使用 **yum** 包管理器，软件安装包格式为 **rpm**
 - Debian、Ubuntu 使⽤ **apt** 包管理器，软件安装包格式为 **deb**
+
 ![](https://img-blog.csdnimg.cn/a2b515b8456643f4b1bfeb80dd06f526.png)
 
 **rpm使用步骤**
@@ -597,12 +598,19 @@ setfacl -x u:username:w afile //回收用户username对afile文件w的ACL权限
 fdisk /dev/sdc //进入fdisk界面
 ```
 ![fdisk界面](https://img-blog.csdnimg.cn/e2646b614aa040c8b3efbcfc2a1dee55.png)
+
 帮助：m
+
 增加分区：n
+
 ![建主分区](https://img-blog.csdnimg.cn/37bd010f3c2e4895b7e57842b011a424.png)
+
 打印分区：p
+
 保存分区：w
+
 退出不保存：q
+
 删除分区：d
 - mkfs
 
