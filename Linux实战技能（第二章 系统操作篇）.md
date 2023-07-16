@@ -376,7 +376,7 @@ su user1 //仅切换用户
 
 ### 文件（目录）权限
 #### 权限说明
-![](https://img-blog.csdnimg.cn/e01ea35bb14b40e18730244afaae1967.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/c163903990e945a6a10d301c792d6f72.png)
 1. 文件类型
 
 >  - \- 普通文件 
@@ -391,7 +391,7 @@ su user1 //仅切换用户
 > w = 2	写 
 > x = 1 	执⾏
 
-![](https://img-blog.csdnimg.cn/f9b0db3f8e9e42f683b8afbc7d76eeb5.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/1c554a2623db44c4951187a3447b7204.png)
 当属主权限与属组权限冲突时，以属主权限为主。
 3. 目录权限
 > x 进入目录 

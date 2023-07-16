@@ -3,12 +3,12 @@
 这是Linux的背景知识和虚拟机的安装。
 ## 什么是Linux？
 1.一种是**Linus**（人名）编写的开源操作系统的内核
-
 2.一种是广义的操作系统
 ## Linux版本
 ### 内核版本
 [https://www.kernel.org/](https://www.kernel.org/)
-![Alt](https://img-blog.csdnimg.cn/0125a48db5f04b5da018af3e3f16e01e.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/377d434fe3474d6fa8041a2e7e37bad3.png)
+
 **版本号**：主版本号.次版本号.末版本号
 **次版本号**是奇数为开发版，偶数为稳定版（2.6以后不再区分）
 ### 发行版本

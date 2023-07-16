@@ -204,8 +204,7 @@ hostnamectl set-hostname c7.test //永久修改主机名为c7.test
 包管理器是方便软件安装、卸载，解决软件依赖关系的重要工具
 - CentOS、RedHat 使用 **yum** 包管理器，软件安装包格式为 **rpm**
 - Debian、Ubuntu 使⽤ **apt** 包管理器，软件安装包格式为 **deb**
-
-![](https://img-blog.csdnimg.cn/a2b515b8456643f4b1bfeb80dd06f526.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/5f8e6a08f41c4ab98c98cb595a2ff952.png)
 
 **rpm使用步骤**
 1. 挂载光盘，获取rpm包
@@ -335,8 +334,8 @@ grub2的配置文件：
 
 > /etc/default/grub  //grub初级配置
 > /etc/grub.d  //grub详细配置
-
-![grub文件](https://img-blog.csdnimg.cn/b4fe87d3677245ba8318ea13ee188858.png)
+> 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/c37e25f4baa649b0b811567706c7fb2e.png)
 - 其中GRUB_DEFAULT项配置启动时默认选择的内核
 
 ```bash
@@ -531,8 +530,7 @@ parted -l //查看分区信息
 ls -l /dev/sd? //查看磁盘类型，分块
 ls -l /dev/sd?? //查看磁盘类型，分区
 ```
-![fdisk -l](https://img-blog.csdnimg.cn/36325cb972cc4c6f92b6555a2451e4f6.png)
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/23ecc8d116df4db8abaf5c41673cd11a.png)
 - df、du、dd
 
 ```bash
@@ -597,20 +595,13 @@ setfacl -x u:username:w afile //回收用户username对afile文件w的ACL权限
 ```bash
 fdisk /dev/sdc //进入fdisk界面
 ```
-![fdisk界面](https://img-blog.csdnimg.cn/e2646b614aa040c8b3efbcfc2a1dee55.png)
-
+![fdisk界面](https://img-blog.csdnimg.cn/fa03b5f855e544ccb319b917dc956065.png)
 帮助：m
-
 增加分区：n
-
-![建主分区](https://img-blog.csdnimg.cn/37bd010f3c2e4895b7e57842b011a424.png)
-
+![建主分区](https://img-blog.csdnimg.cn/deb77b6eb00442c28e1ca0ec825a15a5.png)
 打印分区：p
-
 保存分区：w
-
 退出不保存：q
-
 删除分区：d
 - mkfs
 
@@ -646,7 +637,7 @@ mount -t auto /dev/sdc1 /data //将分区sdc1挂载到/data目录,自动识别�
 ```bash
 parted /dev/sdc //进入parted界面
 ```
-![parted](https://img-blog.csdnimg.cn/eafe80d2161040a0a8b4f64581802d17.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/ef70f0b5219d44978a8aee8c4f756931.png)
 帮助：help
 ### xfs磁盘配额
  1. 首先格式化xfs分区 /dev/sdb1
@@ -756,8 +747,7 @@ sar -q 1 10 //查看进程状态，每隔1秒采样一次，采样10次
 ```bash
 chkconfig --list
 ```
-![显示](https://img-blog.csdnimg.cn/91c3158186fd4e999b49af3e71d07f91.png)
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/73242ec0f5414ecb8c194c7d5fbe62f7.png)
 # 附加知识
  一、下有3个特殊的进程，idle进程(PID = 0), init进程或systemd进程(PID = 1)和kthreadd(PID = 2)
 
