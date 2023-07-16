@@ -596,13 +596,21 @@ setfacl -x u:username:w afile //回收用户username对afile文件w的ACL权限
 fdisk /dev/sdc //进入fdisk界面
 ```
 ![fdisk界面](https://img-blog.csdnimg.cn/fa03b5f855e544ccb319b917dc956065.png)
+
 帮助：m
+
 增加分区：n
+
 ![建主分区](https://img-blog.csdnimg.cn/deb77b6eb00442c28e1ca0ec825a15a5.png)
+
 打印分区：p
+
 保存分区：w
+
 退出不保存：q
+
 删除分区：d
+
 - mkfs
 
 ```bash
@@ -638,6 +646,7 @@ mount -t auto /dev/sdc1 /data //将分区sdc1挂载到/data目录,自动识别�
 parted /dev/sdc //进入parted界面
 ```
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/ef70f0b5219d44978a8aee8c4f756931.png)
+
 帮助：help
 ### xfs磁盘配额
  1. 首先格式化xfs分区 /dev/sdb1
