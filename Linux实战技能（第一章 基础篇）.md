@@ -3,7 +3,7 @@
 这是Linux的背景知识和虚拟机的安装。
 ## 什么是Linux？
 1.一种是**Linus**（人名）编写的开源操作系统的内核
-2.一种是广义的操作系统
+2.一种是广义的操作系统
 ## Linux版本
 ### 内核版本
 [https://www.kernel.org/](https://www.kernel.org/)
