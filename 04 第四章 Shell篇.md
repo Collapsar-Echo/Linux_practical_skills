@@ -52,6 +52,7 @@ more filename
 cat filename | more //分页显示文件内容
 ```
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/f56e09039059455b8f14e1d713ec7844.png)
+
 管道符会将两侧命令（外建命令）建两个子进程，如果是内建命令，子进程的修改，不会传递到父进程。
 
 外部命令会产生子进程，管道符同样会产生子进程。内部命令在shell当前进程运行，不会产生子进程。
@@ -166,9 +167,13 @@ echo ${IPTV[N]}
 - `\` 转义符号
 
  `\n` `\r` `\t` 单个字母的转义
+ 
 `\$` ` \” ` `\\` 单个非字母的转义
+
 - `"` 和`'` 引号
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/6624205f8b294c98b0d1f7d6abc534e5.png)
+
 ### 运算符（前后有空格）
 - 赋值运算符
 `=` 用于算数赋值和字符串赋值
@@ -384,10 +389,14 @@ flock 锁文件
 
 # 补充
 一、
+
 进入子shell：bash
+
 回到父shell：exit
 
 二、
+
 su - username //login用户
+
 su username //no-login用户
 
